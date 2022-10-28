@@ -48,6 +48,10 @@ textarea {
   margin-bottom: 4px;
 }
 
+.event-details {
+  background-color: white;
+} 
+
 .hour {
   font-size: 20px;
   font-weight: bold;
