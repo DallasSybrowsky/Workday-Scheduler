@@ -46,7 +46,7 @@ Instructions:
 
 Screenshots:
 
-<img width="500" src="/Images/blankPlanner.png" alt="Planner screenshot">
+<img width="500" src="/assets/Images/blankPlanner.png" alt="Planner screenshot">
 
 ## Support
 
