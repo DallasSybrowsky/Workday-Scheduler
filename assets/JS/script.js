@@ -9,7 +9,6 @@ $(".saveBtn").on("click", function () {
   const text = $(this).siblings(".task").val();
   const time = $(this).parent().attr("id");
   localStorage.setItem(time, text);
-  
 });
 
 // Set hour blocks to appropriate color
@@ -30,7 +29,7 @@ function scheduleUpdate() {
 
 // Update hour blocks based on current time
 var timeUpdate = setInterval(function () {
-    scheduleUpdate()
+  scheduleUpdate();
 }, 15000);
 
 // Clear Schedule button

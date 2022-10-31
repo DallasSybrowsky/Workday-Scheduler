@@ -1,10 +1,14 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Homework 5: Work Day Scheduler
 
 ## Background
 
 The assignment was to create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. The app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.
 
-The [Moment.js](https://momentjs.com/) library is utilized in order to work with date and time. 
+The [Moment.js](https://momentjs.com/) library is utilized in order to work with date and time.
+
+Please see the repo at: https://github.com/DallasSybrowsky/Workday-Scheduler
+
+The live page can be accessed at: https://dallassybrowsky.github.io/Workday-Scheduler/
 
 ## User Story
 
@@ -40,9 +44,9 @@ I structured the script to be as legible as possible, as well as concise as poss
 
 Instructions:
 
-  Click on the desired hour block and you can type into the area. When you click on the save button on the right, the data is saved into local memory and will persist if the page is refreshed. If you desire to clear the schedule, simply click the clear schedule button at the top, and the local memory will be cleared, allowing you to re-enter more data for other days.
+Click on the desired hour block and you can type into the area. When you click on the save button on the right, the data is saved into local memory and will persist if the page is refreshed. If you desire to clear the schedule, simply click the clear schedule button at the top, and the local memory will be cleared, allowing you to re-enter more data for other days.
 
-  Should you desire to modify the schedule without clearing all the data, simply click on the time block you wish to modify and you can amend the entry and save the changes.
+Should you desire to modify the schedule without clearing all the data, simply click on the time block you wish to modify and you can amend the entry and save the changes.
 
 Screenshots:
 
