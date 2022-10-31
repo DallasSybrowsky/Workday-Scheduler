@@ -45,11 +45,11 @@ function renderData() {
   $(".10-").val(localStorage.getItem("10"));
   $(".11-").val(localStorage.getItem("11"));
   $(".12-").val(localStorage.getItem("12"));
-  $(".13-").val(localStorage.getItem("1"));
-  $(".14-").val(localStorage.getItem("2"));
-  $(".15-").val(localStorage.getItem("3"));
-  $(".16-").val(localStorage.getItem("4"));
-  $(".17-").val(localStorage.getItem("5"));
+  $(".13-").val(localStorage.getItem("13"));
+  $(".14-").val(localStorage.getItem("14"));
+  $(".15-").val(localStorage.getItem("15"));
+  $(".16-").val(localStorage.getItem("16"));
+  $(".17-").val(localStorage.getItem("17"));
 }
 
 $(document).ready(function () {
