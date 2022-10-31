@@ -1,10 +1,10 @@
-// Date block code (done)
+// Date block code
 const currentDate = moment().format("dddd, MMMM Do, YYYY");
 const timeInstant = moment();
 $("#currentDay").text(currentDate);
 scheduleUpdate();
 
-
+// Save button click handler
 $(".saveBtn").on("click", function () {
   const text = $(this).siblings(".task").val();
   const time = $(this).parent().attr("id");
@@ -12,7 +12,7 @@ $(".saveBtn").on("click", function () {
   
 });
 
-// Set hour blocks to appropriate color (done)
+// Set hour blocks to appropriate color
 function scheduleUpdate() {
   let currentHour = moment().hour();
   console.log("ScheduleUpdate", currentHour);
@@ -31,15 +31,16 @@ function scheduleUpdate() {
 // Update hour blocks based on current time
 var timeUpdate = setInterval(function () {
     scheduleUpdate()
-}, 60000);
+}, 15000);
 
-// Clear Schedule button (done)
+// Clear Schedule button
 var clearCalendar = document.querySelector(".reset-btn");
 clearCalendar.addEventListener("click", function () {
   localStorage.clear();
   location.reload();
 });
 
+// Populating schedule with saved data
 function renderData() {
   $(".9-").val(localStorage.getItem("9"));
   $(".10-").val(localStorage.getItem("10"));
@@ -52,6 +53,7 @@ function renderData() {
   $(".17-").val(localStorage.getItem("17"));
 }
 
+// Initial loading function
 $(document).ready(function () {
   renderData();
 });
