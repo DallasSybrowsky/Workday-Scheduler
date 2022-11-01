@@ -14,7 +14,7 @@ $(".saveBtn").on("click", function () {
 // Set hour blocks to appropriate color
 function scheduleUpdate() {
   let currentHour = moment().hour();
-  console.log("ScheduleUpdate", currentHour);
+  // console.log("ScheduleUpdate", currentHour); // used for debugging purposes
   $(".task-data").each(function () {
     var taskHour = parseInt($(this).attr("id"));
     if (taskHour < currentHour) {
@@ -30,7 +30,7 @@ function scheduleUpdate() {
 // Update hour blocks based on current time
 var timeUpdate = setInterval(function () {
   scheduleUpdate();
-}, 15000);
+}, 60000);
 
 // Clear Schedule button
 var clearCalendar = document.querySelector(".reset-btn");
